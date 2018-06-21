@@ -8,6 +8,7 @@ import { SearchComponent } from './search/search.component';
 import { TextEditorComponent } from './text-editor/text-editor.component';
 import { PhoneNumberComponent } from './phone-number/phone-number.component';
 import { ActivationCodeComponent } from './activation-code/activation-code.component';
+import { ImageViewerComponent } from './image-viewer/image-viewer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ActivationCodeComponent } from './activation-code/activation-code.compo
     SearchComponent,
     TextEditorComponent,
     PhoneNumberComponent,
-    ActivationCodeComponent
+    ActivationCodeComponent,
+    ImageViewerComponent
   ],
   imports: [
     BrowserModule

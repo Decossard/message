@@ -25,11 +25,16 @@
             "styles": [
               "src/styles.css",
               "src/webflow.css",
-              "src/normalize.css"
+              "src/normalize.css",
+              "./node_modules/photoswipe/dist/photoswipe.css",
+              "./node_modules/photoswipe/dist/default-skin/default-skin.css"
+
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
-              "./node_modules/webflow-api/dist/webflow.js"
+              "./node_modules/webflow-api/dist/webflow.js",
+              "./node_modules/photoswipe/dist/photoswipe.min.js",
+              "./node_modules/photoswipe/dist/photoswipe-ui-default.min.js"
             ]
           },
           "configurations": {
