@@ -372,7 +372,7 @@ ul {
 .time-text {
   margin-top: 3px;
   opacity: 0.5;
-  color: rgba(26, 27, 31, .5);
+  color: rgba(26, 27, 31, .75);
   font-size: 11px;
   line-height: 12px;
   font-weight: 500;
