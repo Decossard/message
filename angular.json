@@ -28,8 +28,8 @@
               "src/normalize.css"
             ],
             "scripts": [
-              "../../node_modules/jquery/dist/jquery.min.js",
-              "../../node_modules/webflow-api/dist/webflow.js"
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/webflow-api/dist/webflow.js"
             ]
           },
           "configurations": {
