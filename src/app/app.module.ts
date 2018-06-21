@@ -9,6 +9,7 @@ import { TextEditorComponent } from './text-editor/text-editor.component';
 import { PhoneNumberComponent } from './phone-number/phone-number.component';
 import { ActivationCodeComponent } from './activation-code/activation-code.component';
 import { ImageViewerComponent } from './image-viewer/image-viewer.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ImageViewerComponent } from './image-viewer/image-viewer.component';
     ImageViewerComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
