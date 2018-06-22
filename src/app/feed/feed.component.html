@@ -8,12 +8,25 @@
         <div class="stack-2"></div>
       </div>
     </div>
+    <!--
+      The feed is separated into 2 sections: recent & contacts.
+      the recent section has the messages list.
+      the contact section has the contacts list.
+      when you message someone from the contact list it is automatically
+      moved to the message list.
+      when you clear the history of a conversation the person is automatically moved out
+      from the message list to the contact list.
+    -->
     <div class="app-view-body">
       <div class="message-list-wrapper">
         <div class="section-wrapper">
           <div class="section-title">Recent</div>
           <ul class="message-list w-list-unstyled">
+
+            <!--message component-->
             <li class="list-item">
+
+              <!--message failed thumbnail-->
               <div class="contact-thumbnail">
                 <div class="icon-n-name-wrapper">
                   <div class="icon failed"></div>
@@ -23,6 +36,11 @@
                   </div>
                 </div>
               </div>
+
+              <!--
+                message failed template
+                slide up when you click on the message thumbnail
+              -->
               <div class="failed-message-view">
                 <div class="message-view-header">
                   <div class="buttons dark historic"></div>
@@ -47,6 +65,11 @@
                   </div>
                 </div>
               </div>
+
+               <!--
+                message history template
+                slide up when you click on the clock icon
+              -->
               <div class="message-historic-view-wrapper">
                 <div class="message-view-header">
                   <div class="buttons dark clean"></div>
@@ -87,7 +110,13 @@
                 </div>
               </div>
             </li>
+
+            <!--message component-->
             <li class="list-item">
+
+               <!--
+                message delivered thumbnail
+              -->
               <div class="contact-thumbnail">
                 <div class="icon-n-name-wrapper">
                   <div class="icon send"></div>
@@ -97,6 +126,11 @@
                   </div>
                 </div>
               </div>
+
+               <!--
+                message delivered template
+                slide up when you click on the message thumbnail
+              -->
               <div class="delivered-message-view">
                 <div class="message-view-header">
                   <div class="buttons dark historic"></div>
@@ -123,6 +157,11 @@
                   </div>
                 </div>
               </div>
+
+               <!--
+                message historic template
+                slide up when you click on the clock icon
+              -->
               <div class="message-historic-view-wrapper">
                 <div class="message-view-header">
                   <div class="buttons dark clean"></div>
@@ -163,7 +202,13 @@
                 </div>
               </div>
             </li>
+
+            <!--message component-->
             <li class="list-item">
+
+                <!--
+                   message read thumbnail
+                 -->
               <div class="contact-thumbnail">
                 <div class="icon-n-name-wrapper">
                   <div class="icon read"></div>
@@ -173,6 +218,11 @@
                   </div>
                 </div>
               </div>
+
+               <!--
+                message read template
+                slide up when you click on the message thumbnail
+              -->
               <div class="read-message-view">
                 <div class="message-view-header">
                   <div class="buttons dark historic"></div>
@@ -197,6 +247,11 @@
                   </div>
                 </div>
               </div>
+
+               <!--
+                message historic template
+                slide up when you click on the clock button
+              -->
               <div class="message-historic-view-wrapper">
                 <div class="message-view-header">
                   <div class="buttons dark clean"></div>
@@ -237,7 +292,13 @@
                 </div>
               </div>
             </li>
+
+            <!--message component-->
             <li class="list-item">
+
+                <!--
+                   message opened thumbnail
+                 -->
               <div class="contact-thumbnail">
                 <div class="icon-n-name-wrapper">
                   <div class="icon opened"></div>
@@ -247,6 +308,11 @@
                   </div>
                 </div>
               </div>
+
+               <!--
+                message opened template
+                slide up when you click on the message thumbnail
+              -->
               <div class="open-message-view">
                 <div class="message-view-header">
                   <div class="buttons dark historic"></div>
@@ -264,6 +330,11 @@
                 <div class="message-view-footer">
                   <div class="buttons dark media"></div><a href="#" class="link w-button">reply</a></div>
               </div>
+
+               <!--
+                message historic template
+                slide up when you click on the clock icon
+              -->
               <div class="message-historic-view-wrapper">
                 <div class="message-view-header">
                   <div class="buttons dark clean"></div>
@@ -304,7 +375,13 @@
                 </div>
               </div>
             </li>
+
+            <!--message component-->
             <li class="list-item">
+
+               <!--
+                new message thumbnail
+              -->
               <div class="contact-thumbnail">
                 <div class="icon-n-name-wrapper">
                   <div class="icon new-message">
@@ -316,6 +393,11 @@
                   </div>
                 </div>
               </div>
+
+               <!--
+                new message template
+                slide up when you click on the message thumbnail
+              -->
               <div class="new-message-view">
                 <div class="message-view-header">
                   <div class="buttons dark historic"></div>
@@ -333,6 +415,11 @@
                 <div class="message-view-footer">
                   <div class="buttons dark media"></div><a href="#" class="link w-button">reply</a></div>
               </div>
+
+               <!--
+                new message historic template
+                slide up when you click on the clock icon
+              -->
               <div class="message-historic-view-wrapper">
                 <div class="message-view-header">
                   <div class="buttons dark clean"></div>
@@ -378,6 +465,11 @@
         <div class="section-wrapper">
           <div class="section-title">Contact</div>
           <ul class="message-list w-list-unstyled">
+
+             <!--
+                contact is a user
+                tap to open the text editor
+              -->
             <li class="list-item">
               <div class="contact-thumbnail">
                 <div class="icon-n-name-wrapper">
@@ -389,6 +481,11 @@
                 </div>
               </div>
             </li>
+
+            <!--
+                contact is not a user
+                tap to send an sms invitation
+              -->
             <li class="list-item">
               <div class="contact-thumbnail">
                 <div class="icon-n-name-wrapper">
