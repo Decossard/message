@@ -179,8 +179,8 @@ ul {
   background-size: 25px;
 }
 
-.buttons.back {
-  background-image: url('assets/icons8_Forward_50px.png');
+.buttons.homme-message {
+  background-image: url('assets/icons8_Forward_50px_1.png');
   background-size: 25px;
 }
 
@@ -372,7 +372,7 @@ ul {
 .time-text {
   margin-top: 3px;
   opacity: 0.5;
-  color: rgba(26, 27, 31, .75);
+  color: rgba(26, 27, 31, .5);
   font-size: 11px;
   line-height: 12px;
   font-weight: 500;
@@ -534,7 +534,10 @@ ul {
   right: 0px;
   bottom: 0px;
   z-index: 5;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 85px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -553,7 +556,10 @@ ul {
   right: 0px;
   bottom: 0px;
   z-index: 5;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 85px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -572,7 +578,10 @@ ul {
   right: 0px;
   bottom: 0px;
   z-index: 5;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 85px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -591,7 +600,10 @@ ul {
   right: 0px;
   bottom: 0px;
   z-index: 5;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 85px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -610,7 +622,10 @@ ul {
   right: 0px;
   bottom: 0px;
   z-index: 5;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 85px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -837,7 +852,10 @@ ul {
   right: 0px;
   bottom: 0px;
   z-index: 10;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 85px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -978,4 +996,5 @@ ul {
     -webkit-transform: scale(1.0);
   }
 }
+
 
