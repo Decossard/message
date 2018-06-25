@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ActivationCodeComponent } from './activation-code.component';
+import { MoreOptions } from './more-options.component';
 
-describe('ActivationCodeComponent', () => {
-  let component: ActivationCodeComponent;
-  let fixture: ComponentFixture<ActivationCodeComponent>;
+describe('MoreOptions', () => {
+  let component: MoreOptions;
+  let fixture: ComponentFixture<MoreOptions>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ActivationCodeComponent ]
+      declarations: [ MoreOptions ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ActivationCodeComponent);
+    fixture = TestBed.createComponent(MoreOptions);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

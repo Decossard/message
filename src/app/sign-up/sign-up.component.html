@@ -1,0 +1,35 @@
+
+  <div class="app-main-views-wrapper start">
+    <div class="app-view-header-wrapper">
+      <div class="status-bar-placeholder"></div>
+      <div class="header-button-wrapper">
+        <div class="logo-text _2">msg</div>
+        <a routerLink="/sign-in" class="sign-up w-inline-block">
+          <div class="text-block-2">Already a user?</div>
+        </a>
+      </div>
+      <div class="stack-wrapper">
+        <div class="stack-1"></div>
+        <div class="stack-2"></div>
+      </div>
+    </div>
+    <div class="app-view-body">
+      <div class="sign-in-block w-form">
+        <form id="email-form" name="email-form" data-name="Email Form" class="sign-in-form">
+          <div class="section-title">Signing up</div>
+          <div class="field-plus-wrapper"><input type="text" class="sign-in-field number w-input" maxlength="256" name="email-address" data-name="Email Address" placeholder="Enter your email" id="email-address" required=""></div>
+          <div class="notice email">
+            <div class="small-icon notice-icon"></div>
+            <div>invalid email</div>
+          </div>
+          <div class="notice email">
+            <div class="small-icon notice-icon"></div>
+            <div>Email is taken</div>
+          </div>
+          <div class="field-plus-wrapper"><input type="text" class="sign-in-field number w-input" maxlength="256" name="Password" data-name="Password" placeholder="Choose a password" id="Password" required=""></div>
+          <div class="send-button-wrapper"><input type="submit" value="Next" data-wait="Please wait..." class="submit-button grey w-button"></div>
+          <div class="tips">By continuing you agree to our <a routerLink="/more-options" >Terms &amp; Policy</a></div>
+        </form>
+      </div>
+    </div>
+  </div>

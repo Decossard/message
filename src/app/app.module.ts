@@ -2,25 +2,27 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { TermsNPrivacyComponent } from './terms-n-privacy/terms-n-privacy.component';
+import { MoreOptions } from './more-options/more-options.component';
 import { FeedComponent } from './feed/feed.component';
 import { SearchComponent } from './search/search.component';
 import { TextEditorComponent } from './text-editor/text-editor.component';
-import { PhoneNumberComponent } from './phone-number/phone-number.component';
-import { ActivationCodeComponent } from './activation-code/activation-code.component';
+import { SignInComponent } from './sign-in/sign-in.component';
+import { FullnameComponent } from './full-name/full-name.component';
 import { ImageViewerComponent } from './image-viewer/image-viewer.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TermsNPrivacyComponent,
+    MoreOptions,
     FeedComponent,
     SearchComponent,
     TextEditorComponent,
-    PhoneNumberComponent,
-    ActivationCodeComponent,
-    ImageViewerComponent
+    SignInComponent,
+    FullnameComponent,
+    ImageViewerComponent,
+    SignUpComponent
   ],
   imports: [
     BrowserModule,
